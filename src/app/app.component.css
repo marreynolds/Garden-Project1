@@ -5,6 +5,8 @@ nav a {
     display: inline-block;
     background-color: greenyellow;
     border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
   }
   nav a:visited, a:link {
     color: #607d8b;
