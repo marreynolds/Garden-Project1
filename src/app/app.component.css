@@ -32,4 +32,5 @@ nav a {
   }
 .header {
     text-align: center;
+    text-shadow: 5px 5px 10px green;
 }
