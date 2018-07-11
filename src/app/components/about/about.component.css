@@ -1,0 +1,27 @@
+.jumbotron {
+    text-align: center;
+    background: url('../../../assets/flora-flowes-green-122429.jpg');
+    height: 15em;
+    background-size: cover;
+}
+
+i {
+    font-size: 200%;
+}
+
+.footer {
+    bottom: 5px;
+    position: absolute;
+    width: 95%;
+    text-align: center
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 200%
+}
+
+#form {
+    text-align: center
+}
