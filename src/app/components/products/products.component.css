@@ -65,3 +65,17 @@
     border: 1px solid green;
     border-radius: 5px;
 }
+.contact {
+    position: absolute;
+    border-bottom: 1px solid rgb(17, 97, 77);
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 2%;
+}
+.equipment .cart img{
+    border: 1px solid transparent;
+    margin-top: 5px;
+}
+.equipment .cart img:hover {
+    opacity: .6;
+}
