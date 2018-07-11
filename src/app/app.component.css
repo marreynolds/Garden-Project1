@@ -1,6 +1,10 @@
 .logo {
     position: absolute;
 }
+.logo img {
+    border: 1px slid greenyellow;
+    border-radius: 5px;
+}
 nav {
     text-align: center;
     border-top: 1px solid green;
