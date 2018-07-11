@@ -1,0 +1,94 @@
+#wrapper{
+    text-align:center;
+    display:grid;
+    grid-template-columns: 15% auto 15%;
+    grid-template-rows: 10em auto;
+    grid-template-areas: 
+        "title title title",
+        "left icon icon",
+        "footer footer footer";
+}
+
+#title{
+    font-size:350%;
+    font-family: 'Eater', cursive;
+    text-shadow:
+        -1px -1px 0 #153824,
+        1px -1px 0 #153824,
+        -1px 1px 0 #153824,
+        1px 1px 0 #153824;
+    color: greenyellow; 
+    grid-area: title;
+    margin: auto;
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 3;
+}
+
+#icon{
+    margin: auto;
+    box-shadow: 5px -5px 2px #153824;
+    border-radius: .5em;
+    z-index: 500;
+    grid-area: title;
+    grid-row: 1;
+    grid-column: 3 / span 1;
+    align-self: start;
+    line-height: 2em;
+}
+
+#list{
+    float: left;
+    max-width:10em;
+    grid-area: left;
+    margin: auto;
+    grid-column: 1 / span 1;
+    grid-row: 2;
+    text-align: left;
+    align-self: center;
+    font-size: 125%;
+    margin-top: 2em;
+    padding: 1em;
+    margin-left: 1em;
+    text-shadow:
+        -1px -1px 0 #153824,
+        1px -1px 0 #153824,
+        -1px 1px 0 #153824,
+        1px 1px 0 #153824;
+    color: greenyellow;
+}
+
+.backimg{
+    z-index: -500;
+    border-radius: .5em;
+}
+
+#mainimg{
+    grid-area: icon;
+    grid-row: 2 / span 1;
+    grid-column: 2/span 4;
+    margin-top: 5em;
+    align-self: center;
+ 
+    box-shadow: 5px -5px 2px #153824;
+    border-radius: 0 .5em .5em 0;
+    width: 90%;
+    max-height: 20em;
+    
+    margin-left: 1em;
+}
+#motto{
+    grid-column: 4/ span 2;
+    grid-row:2/ span 1;
+    font-size:150%;
+    text-shadow:
+        -1px -1px 0 #153824,
+        1px -1px 0 #153824,
+        -1px 1px 0 #153824,
+        1px 1px 0 #153824;
+    color: greenyellow; 
+    margin-top: 5em;
+    align-self: center;
+    grid-area: icon;
+    line-height:2em;
+    padding-top: 2em;
+}
