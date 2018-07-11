@@ -1,13 +1,18 @@
 <h1 class="productstitle">Check Out Our Products!</h1>
+
 <div class="product-options">
-  <button>Seeds</button>
-  <button>Equipment</button>
+  <button (click)="onSeeds()">Seeds</button>
+  <button (click)="onEquipment()">Equipment</button>
 </div>
+
 <div class="products-container">
-  <div class="seeds">
-    <h3>Seeds</h3>
+  <div *ngIf=!toggle class="seeds">
+    <h2>Seeds</h2>
+    <hr />
     <ul>
-      <li>Strawberry Seeds</li>
+      <li><h4>Strawberry Seeds</h4>
+        <img src="../../../assets/gardenlogo.png" height="100" width="100">
+      </li>
       <li>Tomato Seeds</li>
       <li>seeds 3</li>
       <li>seeds 4</li>
@@ -16,8 +21,9 @@
       <li>seeds 7</li>
     </ul>
   </div>
-  <div class="equipment">
-    <h3>Equipment</h3>
+  <div *ngIf=toggle class="equipment">
+    <h2>Equipment</h2>
+    <hr />
     <ul>
       <li>Shovel</li>
       <li>Gloves</li>
