@@ -40,6 +40,10 @@
     padding: 10px;
     border: 1px solid darkgreen;
 }
+.seeds img {
+    border: 1px solid green;
+    border-radius: 5px;
+}
 .equipment {
     margin-left: 10%;
     margin-right: 10%;
@@ -56,4 +60,8 @@
     border-radius: 10px;
     padding: 10px;
     border: 1px solid darkgreen;
+}
+.equipment img {
+    border: 1px solid green;
+    border-radius: 5px;
 }
